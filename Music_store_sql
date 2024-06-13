@@ -1,6 +1,6 @@
  Set 1 :-- 
 
- Q1: Who is the senior most employee based on job title? 
+/* Q1: Who is the senior most employee based on job title? */
 
 SELECT employee_id,concat(first_name,'',last_name) as employees_name , tittle 
 levels, city , country, email
